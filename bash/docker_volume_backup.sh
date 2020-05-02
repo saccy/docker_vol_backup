@@ -124,9 +124,9 @@ if [[ ! -n $action || ! -n $vol_src || ! -n $vol_tgt || ! -n $local_bkp || ! -n 
     usage
 fi
 
+#TODO: add image as an option
 img='alpine'
 
 preflight $action $vol_src
 
-#FIXME: strip argument for restore
 $action $vol_src $vol_tgt $local_bkp $cont_bkp_dir $cont_bkp_file $img
