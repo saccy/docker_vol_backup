@@ -1,5 +1,5 @@
-Scripts to backup and restore docker volumes
+Scripts to backup and restore docker volumes to local storage
 
-Powershell scripts are the most recent versions
+Powershell scripts are still hardcoded
 
 TODO: create an interactive script with a backup class and backup/restore functions
