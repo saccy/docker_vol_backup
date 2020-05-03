@@ -66,6 +66,7 @@ preflight() {
         *)
             echo "Unknown action: $action"
             exit 1
+            ;;
     esac
 }
 

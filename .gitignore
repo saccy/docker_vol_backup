@@ -1,4 +1,5 @@
 *.tar
 .DS_Store
-jenkins.sh
-postgres.sh
+**jenkins**
+**postgres**
+*test*
