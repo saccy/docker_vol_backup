@@ -1,5 +1,5 @@
 *.tar
 .DS_Store
-**jenkins**
-**postgres**
-*test*
+# **jenkins**
+# **postgres**
+# *test*
