@@ -77,9 +77,19 @@ preflight() {
 }
 
 # TODO: 
-#   option: force a restore to existing volume
-#   option: specify file to backup to/restore from
-# FIXME: forcing .tar backups is shit
+# option: force a restore to existing volume
+# option: specify file to backup to/restore from
+# better argument names (powershell and bash arg names differ)
+# better examples (include usage example in README)
+# error handling
+# additional storage options
+#   s3
+#   az blob
+# additional storage formats
+#   zip
+#   tar.gz
+# better output (comments, updates, results etc.)
+
 usage() {
     echo "Usage: ${0} -a action -v docker_volume -b backup_directory"
     echo ""
