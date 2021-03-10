@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Simple test of backup and restore procedures
+# Usage: pass in 'backup' OR 'restore' as the only argument when running i.e. ./test.sh backup
+
 backup_test() {
     local test_vol=$1
 
@@ -58,5 +61,4 @@ restore_test() {
 action=$1 # backup|restore
 test_vol='test_volume'
 
-# backup_test $test_vol
 ${action}_test $test_vol
